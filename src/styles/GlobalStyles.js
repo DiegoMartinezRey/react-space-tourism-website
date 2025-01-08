@@ -24,4 +24,13 @@ export const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    p,h1,h2,h3{
+        margin: 0;
+    }
+
 `;
