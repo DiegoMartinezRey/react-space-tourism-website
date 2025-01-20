@@ -5,7 +5,7 @@ const StyledNavBar = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 24px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -26,7 +26,7 @@ const StyledBurgerMenu = styled.img`
 
 const StyledBurgerMenuContainer = styled.div`
 	padding: 133px 0 0 32px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: ${({ $activeMenu }) => ($activeMenu ? '0' : '-100%')};
 	width: 70%;
